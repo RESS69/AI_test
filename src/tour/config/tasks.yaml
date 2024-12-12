@@ -1,0 +1,20 @@
+research_task:
+  description: >
+    Gather information about {topic} in 2024
+  expected_output: >
+    {topic} summary report.
+  agent: researcherAI
+
+writer_task:
+  description: >
+   Write about interesting {topic}.
+  expected_output: >
+    Give me a quick markdown summary and then also give me 7 bullet points describing it.
+  agent: writerAI
+
+reviews_task:
+  description: >
+   Reviews about {topic}
+  expected_output: >
+    reviews and comment about {topic}
+  agent: reviewerAI
